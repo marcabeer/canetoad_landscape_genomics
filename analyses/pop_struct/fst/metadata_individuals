@@ -1,0 +1,933 @@
+sample	pop	transect	transect_alt	region_no	region_name	subregion	long	lat	description
+sample_5A10	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5A6	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5A7	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5A8	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5A9	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B10	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B2	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B3	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B4	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B5	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B6	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B7	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B8	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5B9	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5C2	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5C3	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5C4	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_5C5	1	1	1	1	NW	1	132.83982	-12.67143	Jabiru Lake, ~20A
+sample_3A2	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_3A3	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_3C8	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_3D5	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4D7	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4E1	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4E4	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4E6	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4E8	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4E9	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_4F1	2	1	1	1	NW	1	132.52358	-12.90203	road cruise Yellow Waters, ~30A
+sample_3A1	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3C5	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3C6	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3D1	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3D2	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3D3	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3E10	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3F2	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3F8	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3G2	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3G6	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3G8	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3G9	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3H2	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3H3	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3H4	3	1	1	1	NW	1	132.43675	-13.17257	road cruise Barrimundi Creek and swamp, ~12A
+sample_3A12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3B11	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3B12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3C11	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3C12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3C2	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3C3	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3C4	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3D11	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3D12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3E11	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3E12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3F11	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3F12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3G12	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_3H11	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_4A1	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_4A2	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_4A3	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_4A4	4	1	1	1	NW	2	132.21847	-13.60617	Kakadu Visitors Center, ~20A, 10J
+sample_5C10	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D1	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D10	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D2	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D3	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D4	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D5	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D6	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D7	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D8	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5D9	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E1	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E2	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E3	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E4	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E5	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E6	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E7	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E8	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_5E9	5	1	2	1	NW	2	132.18846	-14.17887	Nitimiluk waterfall, ~25
+sample_7A11	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7B11	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7D11	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7E11	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7F11	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7G11	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H1	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H10	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H2	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H3	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H4	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H5	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_7H8	6	1	1	1	NW	2	132.26226	-14.45899	Katherine River, ~20A
+sample_3A10	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3A11	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3A4	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3A5	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3A7	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3A8	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3A9	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3B10	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3B3	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3B4	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3B6	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3B7	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3C7	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3D6	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3D8	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3E1	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3E5	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3G5	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3H10	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_3H9	7	1	1	1	NW	3	131.87305	-14.94524	Cow pond, ~45A
+sample_4F10	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F3	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F4	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F5	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F6	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F7	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F8	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4F9	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G1	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G2	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G3	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G4	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G5	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G6	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G7	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G8	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4G9	8	1	1	1	NW	3	131.55969	-15.31659	road cruise few bush creeks, ~17A
+sample_4B1	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4B10	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4B2	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4B4	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4B5	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4B6	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4B8	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C1	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C2	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C4	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C5	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C6	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C7	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_4C8	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_5A2	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_5A3	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_5A4	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_5A5	9	1	1	1	NW	3	131.12966	-15.61462	Victoria River Camp, Gregory Nat. Park, ~47A, 3J
+sample_7A12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7B12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7C12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7D12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7E12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7F12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7G12	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_7H11	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_8E10	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_8E5	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_8E6	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_8E7	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_8F2	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_8F3	10	1	1	1	NW	3	130.75164	-15.73388	road cruise Skull Creek & tribs., ~15A
+sample_4A10	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_4A5	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_4A6	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_4A7	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_4A8	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_4A9	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7F10	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7F8	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7F9	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G1	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G2	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G3	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G4	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G5	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G6	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G7	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_7G8	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_8F4	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_8F5	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_8F6	11	1	1	1	NW	3	130.48095	-15.66351	Timber Creek Campground, ~45A
+sample_8C10	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8C5	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8C6	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8C7	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8C8	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8C9	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D1	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D10	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D2	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D3	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D4	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D5	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D6	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D7	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D8	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8D9	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8E2	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8E3	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_8E4	12	1	1	1	NW	4	129.89823	-15.85217	3 bush ponds, ~30A
+sample_7E10	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7E4	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7E5	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7E6	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7E7	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7E8	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7E9	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7F1	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7F2	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7F3	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7F4	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7F5	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7F7	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_8A2	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_8A4	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_8A5	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_8A6	13	1	1	1	NW	4	129.39111	-16.00842	bush pond, 3A, 47J
+sample_7G9	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8A10	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8B1	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8B10	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8B8	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8B9	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8C2	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_8C3	14	1	1	1	NW	4	128.89462	-16.0306	Lake Argyle Road, 26A
+sample_19C1	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C10	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C2	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C3	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C4	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C5	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C6	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C7	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C8	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19C9	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D1	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D10	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D2	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D3	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D4	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D5	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D6	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D7	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D8	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19D9	15	2	2	1	NW	1	130.83512	-12.44896	Darwin, bot. gardens, 28, mixed
+sample_19E1	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E10	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E2	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E3	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E4	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E5	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E6	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E7	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E8	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19E9	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F1	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F10	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F2	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F4	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F5	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F6	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F7	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F8	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19F9	16	2	2	1	NW	1	130.96219	-12.82038	Darwin River Dam, 28, mixed
+sample_19A1	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A10	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A2	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A3	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A4	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A5	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A6	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A7	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A8	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19A9	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B1	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B10	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B2	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B4	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B5	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B6	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B7	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B8	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_19B9	17	2	2	1	NW	1	131.10702	-13.23875	Adelaide River, 35, mixed
+sample_18E1	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E10	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E2	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E3	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E4	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E5	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E6	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E7	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E8	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18E9	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F1	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F10	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F2	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F3	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F4	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F5	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F6	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F7	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F8	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18F9	18	2	2	1	NW	1	131.45993	-13.58302	Hayes Creek, 31, mixed
+sample_18D12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_18E12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_18F12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_18G12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_18H12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19A12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19B12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19C12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19D12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19E11	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19E12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19F11	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19F12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19G11	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19G12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19H11	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_19H12	19	2	2	1	NW	2	131.83395	-13.82217	Pine Creek, 17, mixed
+sample_18A11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18A12	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18B11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18B12	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18C11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18C12	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18D11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18E11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18F11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18G11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18H10	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18H11	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18H7	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18H8	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18H9	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_20G8	20	2	2	1	NW	2	132.65649	-14.64784	Roper Creek, 16 (4 roadkilled)
+sample_18A10	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A2	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A3	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A4	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A5	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A6	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A7	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A8	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18A9	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B1	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B10	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B2	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B3	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B4	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B5	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B6	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B7	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B8	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_18B9	21	2	2	1	NW	2	133.13333	-14.92207	Mataranka, 43, mixed
+sample_17A10	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17A6	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17A7	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17A8	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17A9	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17B1	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17B2	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17B3	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20F10	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20F6	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20F7	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20F8	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20F9	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20G1	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_20G2	22	2	2	1	NW	5	133.38538	-16.30738	Daly Waters, 13, most males
+sample_17B4	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_17B5	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_17B6	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_17B7	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_17B8	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_17B9	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_20G3	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_20G4	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_20G6	23	2	2	1	NW	5	133.41267	-16.67993	Dunmarra, 12, mixed
+sample_19G1	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G10	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G2	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G3	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G4	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G5	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G6	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G7	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G8	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19G9	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H1	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H2	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H3	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H4	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H5	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H6	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H7	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H8	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_19H9	24	2	2	1	NW	5	133.46547	-17.23286	Newcastle Waters (cow pond), 19, all males
+sample_13G10	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13G4	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13G5	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13G6	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13G7	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13G8	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13H1	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13H2	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13H3	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13H4	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13H5	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_13H6	34	3	3	2	NE	6	146.7624	-19.20771	Townsville, ~12
+sample_12A10	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A2	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A3	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A4	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A5	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A6	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A7	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A8	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12A9	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B1	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B10	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B2	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B3	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B4	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B5	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B7	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B8	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_12B9	35	3	3	2	NE	6	146.83909	-19.59025	Woodstock, 39, mixed
+sample_14D1	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D10	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D2	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D3	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D4	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D5	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D6	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D7	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D8	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14D9	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E1	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E10	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E2	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E3	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E4	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E5	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E6	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E7	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E8	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14E9	36	3	3	2	NE	6	146.6367	-19.87785	Mingela, 45, mixed
+sample_14B1	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B10	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B2	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B3	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B5	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B6	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B7	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14B8	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C1	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C10	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C2	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C3	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C4	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C5	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C6	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C7	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C8	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14C9	37	3	3	2	NE	6	146.26098	-20.09125	Charters Towers, 34
+sample_14A1	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A10	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A2	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A3	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A4	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A5	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A6	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A7	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A8	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_14A9	38	3	3	2	NE	6	145.91249	-20.2147	Barfos Creek, 43
+sample_12A11	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12B11	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12H10	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12H5	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12H7	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12H8	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12H9	39	3	3	2	NE	7	145.39607	-20.52703	Pentland, 53, mostly female
+sample_12F10	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12F5	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12F6	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12F7	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12F8	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12F9	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G1	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G10	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G2	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G3	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G4	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G5	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G6	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G7	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G8	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12G9	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12H1	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12H2	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12H3	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12H4	40	3	3	2	NE	7	145.02566	-20.76794	Torrens Creek, 28, lots of juvs
+sample_12D10	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12D5	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12D6	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12D7	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12D8	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12D9	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E1	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E10	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E2	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E3	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E4	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E6	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E7	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E8	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12E9	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12F1	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12F3	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12F4	41	3	3	2	NE	7	144.59992	-20.87143	Prairie, 23
+sample_12C10	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C2	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C3	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C4	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C5	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C6	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C7	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12C9	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12D2	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12D3	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_12D4	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_8C12	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_8D12	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_8E12	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_8G12	42	3	3	2	NE	7	144.20223	-20.84212	Hughenden, ~23A
+sample_13A11	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_13H10	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_13H7	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_13H8	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E1	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E10	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E2	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E3	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E4	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E5	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E6	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E7	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20E8	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20F1	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20F2	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20F3	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20F4	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_20F5	43	3	3	2	NE	7	143.91365	-21.17622	Knob Creek (n. Samford), 27 (but 5 males escaped)
+sample_13F10	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13F5	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13F6	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13F7	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13F8	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13G1	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13G2	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_13G3	44	3	3	2	NE	7	143.65743	-21.40768	Starke Creek (s. Samford), 12 (bt 3 males escaped)
+sample_16A1	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A10	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A2	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A5	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A6	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A7	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A8	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16A9	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B1	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B2	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B3	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B5	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B6	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B7	61	4	5	3	S	8	152.56505	-26.94782	Kilcoy, 58A, mixed
+sample_16B10	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16B8	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16B9	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C1	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C10	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C2	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C3	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C4	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C5	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C6	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C7	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C8	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16C9	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D1	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D2	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D3	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D4	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D5	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D6	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D7	62	4	4	3	S	8	151.99063	-26.83886	Yarraman, 53, lots females
+sample_16D10	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16D8	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16D9	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E1	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E10	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E2	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E3	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E4	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E7	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E8	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16E9	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16F1	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16F3	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16F4	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_16F5	63	4	4	3	S	8	151.61591	-26.73808	Kumbia, 20, mostly juvs, 2A
+sample_17E10	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E2	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E3	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E4	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E5	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E6	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E7	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E8	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17E9	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F1	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F10	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F2	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F3	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F4	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F5	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F6	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F7	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F8	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17F9	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_17G1	64	4	4	3	S	9	151.11031	-26.77852	Jandowae, 32
+sample_16A11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16A12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16B11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16B12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16C11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16C12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16D11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16D12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16E11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16E12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16F11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16F12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16G11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16G12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16H10	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16H11	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16H12	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16H8	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16H9	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_19H10	65	4	4	3	S	9	150.62436	-26.7354	Chinchilla, 42, mixed
+sample_16F10	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16F8	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16F9	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G1	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G10	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G2	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G4	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G5	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G6	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G7	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G8	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16G9	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16H1	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16H2	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16H4	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16H5	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16H6	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_16H7	66	4	4	3	S	10	150.18009	-26.65638	Miles, 36, mixed
+sample_17G10	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17G3	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17G5	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17G6	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17G7	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17G9	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H1	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H10	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H2	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H3	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H4	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H5	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H6	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H7	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H8	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17H9	67	4	4	3	S	10	149.75827	-26.64402	Dulacca, 21, mixed
+sample_17A12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17B11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17B12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17C11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17C12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17D11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17D12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17E11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17E12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17F11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17F12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17G11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17G12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17H11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_17H12	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_19C11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_19D11	68	4	4	3	S	10	149.18056	-26.58026	Wullumbilla, 18, mostly male, 3 roadkilled
+sample_14H12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15A11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15A12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15B11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15B12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15C12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15D11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15D12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15E11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15E12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15F11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15F12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15G11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15G12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15H10	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15H11	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15H12	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15H8	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15H9	69	5	5	3	S	8	151.9716	-27.58989	Toowoomba, 30A, (2F, 28M)
+sample_15D10	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15D8	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15D9	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E10	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E2	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E3	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E4	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E5	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E6	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E7	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E8	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15E9	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F1	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F3	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F4	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F5	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F6	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F7	70	5	5	3	S	8	152.36054	-27.52243	Lake Clarendon (Gatton), 54, lots juvs
+sample_15F10	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15F8	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15F9	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G10	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G2	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G3	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G4	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G5	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G6	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G8	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15G9	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H1	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H2	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H3	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H4	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H5	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H6	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15H7	71	5	5	3	S	8	152.68203	-27.99304	Boonah, ~55, mixed
+sample_15A1	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A10	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A2	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A3	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A4	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A5	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A6	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A7	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A8	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15A9	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B1	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B10	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B2	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B3	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B4	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B6	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B7	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B8	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15B9	72	5	5	3	S	11	152.96363	-28.51105	Wiangaree, 19A, all male
+sample_15C1	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C10	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C2	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C3	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C4	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C5	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C6	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C7	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C8	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15C9	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15D1	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15D2	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15D3	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15D4	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15D5	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_15D6	73	5	5	3	S	11	153.04896	-28.87662	Casino, 18A, mixed
+sample_2A6	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2B1	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2B2	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2B3	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2B4	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2B5	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2B6	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2C1	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2C2	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2C3	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2C4	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2C5	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2C6	74	6	6	3	S	12	150.50471	-23.40266	Rockhampton caravan park: holiday village, 3A, 27J
+sample_2E2	75	6	6	3	S	12	150.70627	-23.67735	Marmor primary school, toads in bags, ~12
+sample_2E6	75	6	6	3	S	12	150.70627	-23.67735	Marmor primary school, toads in bags, ~12
+sample_2F1	75	6	6	3	S	12	150.70627	-23.67735	Marmor primary school, toads in bags, ~12
+sample_2F2	75	6	6	3	S	12	150.70627	-23.67735	Marmor primary school, toads in bags, ~12
+sample_2F3	75	6	6	3	S	12	150.70627	-23.67735	Marmor primary school, toads in bags, ~12
+sample_5F10	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5F4	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5F5	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5F6	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5F7	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5F8	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5F9	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G1	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G10	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G3	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G4	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G5	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G7	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G8	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G9	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5H1	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5H3	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5H6	77	6	6	3	S	12	151.56538	-24.34053	Miriam Vale primary school, golf course, 50
+sample_5G6	79	6	6	3	S	9	152.05078	-25.50243	Biggenden golf course, ~24A, 2J
+sample_5H7	79	6	6	3	S	9	152.05078	-25.50243	Biggenden golf course, ~24A, 2J
+sample_5H8	79	6	6	3	S	9	152.05078	-25.50243	Biggenden golf course, ~24A, 2J
+sample_5H9	79	6	6	3	S	9	152.05078	-25.50243	Biggenden golf course, ~24A, 2J
+sample_6E1	79	6	6	3	S	9	152.05078	-25.50243	Biggenden golf course, ~24A, 2J
+sample_1E4	80	6	6	3	S	9	152.22934	-26.08946	Kilkivan golf course, 5A, ~45T
+sample_1E5	80	6	6	3	S	9	152.22934	-26.08946	Kilkivan golf course, 5A, ~45T
+sample_1E6	80	6	6	3	S	9	152.22934	-26.08946	Kilkivan golf course, 5A, ~45T
+sample_1E7	80	6	6	3	S	9	152.22934	-26.08946	Kilkivan golf course, 5A, ~45T
+sample_1E8	80	6	6	3	S	9	152.22934	-26.08946	Kilkivan golf course, 5A, ~45T
+sample_1E10	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1E9	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F1	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F10	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F2	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F3	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F4	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F5	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F6	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F8	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1F9	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G1	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G2	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G3	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G4	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G5	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G6	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G7	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G8	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1G9	81	4	6	3	S	8	152.9585	-26.9451	Beerburrum Motel, 25A, 7J
+sample_1A11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1A12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1B11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1B12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1C11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1C12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1D11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1D12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1E11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1E12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1F11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1F12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1G11	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1G12	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_2A1	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_2A5	82	6	6	3	S	8	152.95649	-27.4422	Ashgrove Golf Club, outside Brisbane, 48A, ~2J
+sample_1A10	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1A3	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1A8	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1A9	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B1	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B10	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B2	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B3	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B4	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B5	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B6	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B7	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B8	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1B9	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1C1	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1C2	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1C3	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1C5	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1C6	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1C7	83	6	6	3	S	8	153.32141	-27.8629	Coomera Sports Park, 36A
+sample_1A1	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_1A2	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_1A4	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_1A5	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_1A6	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_1A7	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_1C4	84	6	6	3	S	11	153.4908	-28.5561	Mullumbimby cemetary, park, 15A
+sample_8F10	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8F8	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8F9	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G1	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G10	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G2	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G3	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G5	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G6	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G7	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G8	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8G9	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8H1	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8H2	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8H3	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8H5	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_8H6	85	6	6	3	S	11	153.36983	-29.09103	Woodburn-Evans Head Golf Club, ~25A
+sample_7C6	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7C7	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7C9	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7D10	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7D7	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7D8	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7D9	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
+sample_7E2	86	6	6	3	S	11	153.22656	-29.35268	Mororo2010 (Sharon), 48A
