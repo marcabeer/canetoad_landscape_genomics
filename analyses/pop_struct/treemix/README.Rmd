@@ -1,0 +1,310 @@
+---
+title: "Cane Toad TreeMix"
+author: "Rhett M. Rautsaw"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+First, I set up some lists for parallelization.
+
+- `migrations.txt`: A file listing the number of migration edges to test
+	- 0-20 migration edges
+- `iterations.txt`: A file listing the number of iterations to run for each migration edge
+	- 10 iterations
+
+```{bash, eval=F}
+#PBS -N Tmix
+#PBS -l select=100:ncpus=16:mem=62gb,walltime=72:00:00
+#PBS -j oe
+#PBS -M rrautsa@clemson.edu
+#PBS -m abe
+
+module load anaconda3/2022.05-gcc/9.5.0
+source activate bio
+export LD_PRELOAD=/usr/lib64/libcrypto.so.1.1:$LD_PRELOAD
+
+cd $PBS_O_WORKDIR
+
+# Starting Tree Generation
+# TreeMix (migration edges = 0, iterations = 100)
+seq 1 100 | parallel -j 1 --workdir $PWD --sshloginfile $PBS_NODEFILE '
+	module load anaconda3/2022.05-gcc/9.5.0
+	source activate treemix
+	treemix -i caneToad.tmix.gz -m 0 -o treemix.m0.i{1} -root NE_34 -global -bootstrap -k 1000 > treemix.m0.i{1}.log
+	while grep -q nan treemix.m0.i{1}.log
+		do
+		treemix -i caneToad.tmix.gz -m 0 -o treemix.m0.i{1} -root NE_34 -global -bootstrap -k 1000 > treemix.m0.i{1}.log
+		done
+	'
+
+# Identifying the Best Tree
+LLIK=-100000000000000
+for i in `seq 1 100`
+	do
+	TMP=$(grep Exiting treemix.m0.i${i}.llik | perl -pe 's/.*: //g' | perl -pe 's/ //g')
+	if [ $(awk 'BEGIN {print ('$TMP' > '$LLIK')}') -eq 1 ];
+		then LLIK=$(echo $TMP)
+		echo $LLIK
+		BEST=$i
+	fi
+done
+
+cp treemix.m0.i${BEST}.treeout.gz treemix.start.tree.gz
+gunzip treemix.start.tree.gz
+
+# Adding Migration Edges
+# TreeMix (migration edges = 1-20, iterations = 10)
+parallel -a migrations.txt -a iterations.txt -j 1 --workdir $PWD --sshloginfile $PBS_NODEFILE '
+	module load anaconda3/2022.05-gcc/9.5.0
+	source activate treemix
+	treemix -i caneToad.tmix.gz -m {1} -tf treemix.start.tree -o treemix.m{1}.i{2} -bootstrap -k 1000 > treemix.m{1}.i{2}.log
+	while grep -q nan treemix.m{1}.i{2}.log
+		do
+		treemix -i caneToad.tmix.gz -m {1} -tf treemix.start.tree -o treemix.m{1}.i{2}  -bootstrap -k 1000 > treemix.m{1}.i{2}.log
+		done
+	'
+```
+
+# OptM
+```{r}
+library(OptM)
+library(tidyverse)
+#library(dplyr)
+
+#need to unzip this subdirectory first
+optM.evanno = optM("~/analyses/pop_struct/treemix/TreeMix_Results")
+plot_optM(optM.evanno, method = "Evanno", pdf = "OptM.pdf")
+plot_optM(optM.evanno %>% filter(m > 1), method = "Evanno", pdf="OptM2.pdf")
+```
+
+# Plotting 
+https://github.com/andrewparkermorgan/popcorn/blob/master/R/treemix.R
+https://bitbucket.org/nygcresearch/treemix/src/master/src/plotting_funcs.R
+
+```{r}
+library(ggplot2)
+library(patchwork)
+
+plot_marg <- 20
+
+p_lm_m0_m20 <- ggplot()+
+  geom_line(optM.evanno, mapping=aes(x=m, y=`mean(Lm)`), size=0.5, colour="gray60")+
+  geom_point(optM.evanno, mapping=aes(x=m, y=`mean(Lm)`), size=3)+
+  geom_errorbar(optM.evanno, mapping=aes(x=m, ymin=`mean(Lm)`-`sd(Lm)`, ymax=`mean(Lm)`+`sd(Lm)`), width=0.5)+
+  scale_y_continuous(breaks=seq(from=-1e9, to=0, by=100000000))+
+  coord_cartesian(ylim = c(-1e9, 0))+
+  scale_x_continuous(limits=c(0,20), breaks=seq(from=0, to=20, by=2))+
+  labs(x="m (No. migration edges)", y="mean(Lm) +/- SD")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+          axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14), axis.text.y = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))
+
+p_lm_m1_m20 <- ggplot()+
+  geom_line(optM.evanno[-which(optM.evanno$m==0),], mapping=aes(x=m, y=`mean(Lm)`), size=0.5, colour="gray60")+
+  geom_point(optM.evanno[-which(optM.evanno$m==0),], mapping=aes(x=m, y=`mean(Lm)`), size=3)+
+  geom_errorbar(optM.evanno[-which(optM.evanno$m==0),], mapping=aes(x=m, ymin=`mean(Lm)`-`sd(Lm)`, ymax=`mean(Lm)`+`sd(Lm)`), width=0.5)+
+  scale_y_continuous(breaks=seq(from=-4e6, to=0, by=1000000))+
+  coord_cartesian(ylim = c(-4e6, 0))+
+  scale_x_continuous(limits=c(0,20), breaks=seq(from=0, to=20, by=2))+
+  labs(x="m (No. migration edges)", y="mean(Lm) +/- SD")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+          axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14), axis.text.y = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))
+
+p_dm_m0_m20 <- ggplot()+
+  geom_line(optM.evanno, mapping=aes(x=m, y=Deltam), size=1, colour="gray60")+
+  geom_point(optM.evanno, mapping=aes(x=m, y=Deltam), size=3)+
+  scale_y_continuous(breaks=seq(from=0, to=35000, by=5000))+
+  scale_x_continuous(limits=c(0,20), breaks=seq(from=0, to=20, by=2))+
+  coord_cartesian(ylim = c(0, 35000))+
+  labs(x="m (No. migration edges)", y="Delta m")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+          axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14), axis.text.y = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))
+
+p_dm_m2_m20 <- ggplot()+
+  geom_line(optM.evanno[-which(optM.evanno$m==0 | optM.evanno$m==1),], mapping=aes(x=m, y=Deltam), size=1, colour="gray60")+
+  geom_point(optM.evanno[-which(optM.evanno$m==0 | optM.evanno$m==1),], mapping=aes(x=m, y=Deltam), size=3)+
+  scale_y_continuous(breaks=seq(from=0, to=400, by=100))+
+  scale_x_continuous(limits=c(0,20), breaks=seq(from=0, to=20, by=2))+
+  coord_cartesian(ylim = c(0, 400))+
+  labs(x="m (No. migration edges)", y="Delta m")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+          axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14), axis.text.y = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))
+  
+
+(p_lm_m0_m20 | p_dm_m0_m20) / (p_lm_m1_m20 | p_dm_m2_m20) + plot_annotation(tag_levels="A") & theme(plot.tag = element_text(size = 25))
+
+ggsave("treemix_stats.svg", width=12, height=8)
+
+
+```
+
+
+
+
+
+```{r}
+source("~/analyses/pop_struct/treemix/treemix.R")
+lliks = optM_read("~/analyses/pop_struct/treemix/TreeMix_Results", orientagraph = F)
+maxLliks = lliks %>% mutate(i=as.numeric(gsub(".*.i","", Stem))) %>%
+  group_by(M) %>% filter(LnPD == max(LnPD)) %>% 
+  arrange(M, i) %>% slice(1)
+
+setwd("~/analyses/pop_struct/treemix/TreeMix_Results")
+for(i in 1:nrow(maxLliks)){
+  tmix=read_treemix(maxLliks$Stem[i])
+  A = plot_treemix(tmix, plot.nodes = F) + labs(title=maxLliks$Stem[i]) + theme_treemix()
+  #svg(paste0(maxLliks$Stem[i],".svg"), width = 11, height=8.5)
+  pdf(paste0(maxLliks$Stem[i],".pdf"), width = 11, height=8.5)
+  print(A)
+  dev.off()
+}
+
+
+setwd("~/analyses/pop_struct/treemix/TreeMix_Results")
+tmix_m0 <- read_treemix(maxLliks$Stem[1])
+tmix_m1 <- read_treemix(maxLliks$Stem[2])
+tmix_m4 <- read_treemix(maxLliks$Stem[5])
+tmix_m11 <- read_treemix(maxLliks$Stem[12])
+
+plot_marg <- 5
+
+p_tree_m0 <- plot_treemix(tmix_m0, plot.nodes=T)+
+  theme_treemix()+
+  labs(x="Drift parameter")+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14))+
+  theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(legend.position=c(0.8,0.8))+
+    theme(legend.key.height = unit(2, "cm"))+
+  scale_x_continuous(limits=c(0,0.075), breaks=seq(from=0, to=0.08, by=0.01))
+
+p_tree_m1 <- plot_treemix(tmix_m1, plot.nodes=T)+
+  theme_treemix()+
+  labs(x="Drift parameter")+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14))+
+  theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(legend.position=c(0.8,0.8))+
+    theme(legend.key.height = unit(2, "cm"))+
+  scale_x_continuous(limits=c(0,0.075), breaks=seq(from=0, to=0.08, by=0.01))
+
+p_tree_m1_big <- plot_treemix(tmix_m1, plot.nodes=F)+
+  theme_treemix()+
+  labs(x="Drift parameter")+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14))+
+  theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(legend.position=c(0.8,0.8))+
+    theme(legend.key.height = unit(0.5, "cm"))+
+  scale_x_continuous(limits=c(0,0.075), breaks=seq(from=0, to=0.08, by=0.01))
+
+p_tree_m4 <- plot_treemix(tmix_m4, plot.nodes=T)+
+  theme_treemix()+
+  labs(x="Drift parameter")+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14))+
+  theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(legend.position=c(0.8,0.8))+
+    theme(legend.key.height = unit(2, "cm"))+
+  scale_x_continuous(limits=c(0,0.075), breaks=seq(from=0, to=0.08, by=0.01))
+
+p_tree_m11 <- plot_treemix(tmix_m11, plot.nodes=T)+
+  theme_treemix()+
+  labs(x="Drift parameter")+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14))+
+  theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(legend.position=c(0.8, 0.8))+
+    theme(legend.key.height = unit(2, "cm"))+
+  scale_x_continuous(limits=c(0,0.1), breaks=seq(from=0, to=0.1, by=0.01))
+p_tree_m11
+
+(p_tree_m0 | p_tree_m1) / (p_tree_m4 | p_tree_m11) + plot_layout(guides="collect") + plot_annotation(tag_levels="A") & theme(plot.tag = element_text(size = 25)) & theme(legend.position="right")
+
+ggsave("p_tree.svg", width=12, height=15.5)
+
+
+#geographic data plotting
+library("rnaturalearth")
+library("rnaturalearthhires")
+library("rnaturalearthdata")
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+md <- read.table("C:/Users/icepi/Documents/wsu/research/cane_toad/analyses/treemix/2023_CaneToad/env_filtered", sep="\t", header=TRUE)
+
+region_labels <- data.frame(long=c(135, 144, 149.5), lat=c(-12.75, -18, -29), region=c("NW", "NE", "S"))
+
+map <- ggplot(data = world) +
+    geom_sf(fill="gray80", colour="gray70") +
+    coord_sf(xlim = c(127, 155), ylim = c(-30, -10))+
+    labs(x="Longitude", y="Latitude", fill="Colonization\nyear")+
+    geom_point(data = md, aes(x = long, y = lat, fill=year), shape=21, colour="black", size=3)+
+    geom_label_repel(data=md, aes(x=long, y=lat, label=pop), max.overlaps=20)+
+    geom_text(region_labels, mapping=aes(x=long, y=lat, label=region), size=10)+
+    scale_fill_gradient2(low="blue", mid="white", high="red", midpoint=median(md$year), breaks=seq(from=1930, to=2010, by=10))+
+    theme_bw()+
+    theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+          axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
+    theme(axis.text.x = element_text(size=14), axis.text.y = element_text(size=14))+
+    theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+    theme(legend.key.height = unit(1, "cm"))+
+    theme(legend.position=c(0.1, 0.2))+
+    theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))
+map
+
+#scale factor relating to height to width
+scale_factor <- 20/28
+
+(p_tree_m0 | p_tree_m1) / (p_tree_m4 | p_tree_m11) / map + plot_annotation(tag_levels="A") & theme(plot.tag = element_text(size = 25))
+
+layout <- "
+AAAAAAABBBBBBB
+AAAAAAABBBBBBB
+AAAAAAABBBBBBB
+AAAAAAABBBBBBB
+AAAAAAABBBBBBB
+AAAAAAABBBBBBB
+CCCCCCCDDDDDDD
+CCCCCCCDDDDDDD
+CCCCCCCDDDDDDD
+CCCCCCCDDDDDDD
+CCCCCCCDDDDDDD
+CCCCCCCDDDDDDD
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+EEEEEEEEEEEEEE
+"
+
+p_tree_m0 + p_tree_m1 + p_tree_m4 + p_tree_m11 + map + plot_layout(design=layout) + plot_annotation(tag_levels="A") & theme(plot.tag = element_text(size = 25))
+
+ggsave("p_tree_map.svg", width=12, height=10+11)
+
+
+# source("plotting_funcs.R")
+# plot_tree("treemix.m10.i1")
+```
