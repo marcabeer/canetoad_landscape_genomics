@@ -225,3 +225,23 @@ ne_neutral_box + ne_neutral_scatter + ar_box + ar_scatter + ho_box + ho_scatter 
 ggsave("diversity_plots.svg", width=13, height=14)
 
 
+#plot for seminar
+ho_scatter_seminar<-ggscatter(data=div_pops, x='year', y='obs_het',
+                      shape="region_name", color="region_name", size=2.5,
+                      palette=pal, add="reg.line", conf.int=TRUE)+
+  stat_cor(method="pearson", aes(color = region_name), label.x=c(1930, 1955, 1980), label.y=rep(x=0.4, 3), p.accuracy=0.001, r.accuracy=0.1, size=5.5)+
+  scale_y_continuous(limits=c(0.27, 0.4), breaks=seq(from=0.25, to=0.40, by=0.05))+
+  scale_x_continuous(limits=c(1930,2015), breaks=seq(from=1930, to=2015, by=10))+
+  xlab("Colonization year")+
+  ylab("Observed SNP\nheterozygosity")+
+  theme_bw()+
+  labs(colour="Region", fill="Region", shape="Region")+
+  theme(axis.title.x = element_text(size=20), axis.title.y = element_text(size=20))+
+  theme(axis.text.x = element_text(size=18), axis.text.y = element_text(size=18))+
+  theme(legend.title = element_text(size=20), legend.text = element_text(size=18))+
+  theme(legend.key.height = unit(0.4, "cm"))+
+  theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))
+ho_scatter_seminar
+ggsave("ho_scatter_seminar.svg", width=10, height=4)
+
+

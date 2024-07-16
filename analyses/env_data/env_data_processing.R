@@ -152,12 +152,19 @@ env_filtered<-data.frame(pop=env_v3$pop, long=md_sites$long, lat=md_sites$lat, e
 ##############################
 
 #calculate correlations
+global_corr_prefilter = round(cor(env_mean[,c("bio2", "bio4", "bio12", "elev", "bio1", "bio3", "bio7", "bio15", "year")]),2)
 global_corr <- round(cor(env_filtered[,c("bio2", "bio4", "bio12", "elev", "year")]),2)
 nw_corr <- round(cor(env_filtered[which(md_sites$region_name=="NW"),c("bio2", "bio4", "bio12", "elev", "year")]),2)
 ne_corr <- round(cor(env_filtered[which(md_sites$region_name=="NE"),c("bio2", "bio4", "bio12", "elev", "year")]), 2)
 s_corr <- round(cor(env_filtered[which(md_sites$region_name=="S"),c("bio2", "bio4", "bio12", "elev", "year")]), 2)
 
 #rename variables with full names
+colnames(global_corr_prefilter) <- c("Mean temperature\ndiurnal range", "Temperature\nseasonality", "Annual\nprecipitation", "Elevation",
+                                     "Mean annual\ntemperature", "Isothermality", "Temperature\nannual range", "Precipitation\nseasonality", "Colonization\nyear")
+
+rownames(global_corr_prefilter) <- c("Mean temperature\ndiurnal range", "Temperature\nseasonality", "Annual\nprecipitation", "Elevation",
+                                     "Mean annual\ntemperature", "Isothermality", "Temperature\nannual range", "Precipitation\nseasonality", "Colonization\nyear")
+
 colnames(global_corr) <- c("Mean temperature\ndiurnal range", "Temperature\nseasonality", "Annual\nprecipitation", "Elevation", "Colonization\nyear")
 rownames(global_corr) <- c("Mean temperature\ndiurnal range", "Temperature\nseasonality", "Annual\nprecipitation", "Elevation", "Colonization\nyear")
 
@@ -173,50 +180,64 @@ rownames(s_corr) <- c("Mean temperature\ndiurnal range", "Temperature\nseasonali
 
 #make correlation plots
 plot_marg <- 5
+plot_marg_right = 10
 
-corrplot_global <- ggcorrplot(global_corr, method="square", lab=TRUE)+
+corrplot_global_prefilter <- ggcorrplot(global_corr_prefilter, method="square", lab=TRUE, lab_size=5)+
   labs(x="", y="")+
   theme_minimal()+
   theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
         axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
   theme(axis.text.x = element_text(size=14, angle=90, vjust=0.5), axis.text.y = element_text(size=14))+
   theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
-  theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(plot.margin = margin(t = plot_marg, r = plot_marg_right, b = plot_marg, l = plot_marg))+
   scale_fill_gradient2(low = "royalblue2", mid="white", high = "firebrick3", breaks=c(-1, 0, 1), limit=c(-1, 1))+
   labs(x="", y="", fill="Pearson's\nr")+
   theme(legend.position=c(-0.2, -0.25), legend.key.height=unit(0.33, "cm"))
+corrplot_global_prefilter
 
-corrplot_nw <- ggcorrplot(nw_corr, method="square", lab=TRUE)+
+corrplot_global <- ggcorrplot(global_corr, method="square", lab=TRUE, lab_size=5)+
   labs(x="", y="")+
   theme_minimal()+
   theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
         axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
   theme(axis.text.x = element_text(size=14, angle=90, vjust=0.5), axis.text.y = element_text(size=14))+
   theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
-  theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(plot.margin = margin(t = plot_marg, r = plot_marg_right, b = plot_marg, l = plot_marg))+
   scale_fill_gradient2(low = "royalblue2", mid="white", high = "firebrick3", breaks=c(-1, 0, 1), limit=c(-1, 1))+
   labs(x="", y="", fill="Pearson's\nr")+
   theme(legend.position=c(-0.2, -0.25), legend.key.height=unit(0.33, "cm"))
 
-corrplot_ne <- ggcorrplot(ne_corr, method="square", lab=TRUE)+
+corrplot_nw <- ggcorrplot(nw_corr, method="square", lab=TRUE, lab_size=5)+
   labs(x="", y="")+
   theme_minimal()+
   theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
         axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
   theme(axis.text.x = element_text(size=14, angle=90, vjust=0.5), axis.text.y = element_text(size=14))+
   theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
-  theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(plot.margin = margin(t = plot_marg, r = plot_marg_right, b = plot_marg, l = plot_marg))+
   scale_fill_gradient2(low = "royalblue2", mid="white", high = "firebrick3", breaks=c(-1, 0, 1), limit=c(-1, 1))+
   labs(x="", y="", fill="Pearson's\nr")+
   theme(legend.position=c(-0.2, -0.25), legend.key.height=unit(0.33, "cm"))
 
-corrplot_s <- ggcorrplot(s_corr, method="square", lab=TRUE)+
+corrplot_ne <- ggcorrplot(ne_corr, method="square", lab=TRUE, lab_size=5)+
+  labs(x="", y="")+
   theme_minimal()+
   theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
         axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
   theme(axis.text.x = element_text(size=14, angle=90, vjust=0.5), axis.text.y = element_text(size=14))+
   theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
-  theme(plot.margin = margin(t = plot_marg, r = plot_marg, b = plot_marg, l = plot_marg))+
+  theme(plot.margin = margin(t = plot_marg, r = plot_marg_right, b = plot_marg, l = plot_marg))+
+  scale_fill_gradient2(low = "royalblue2", mid="white", high = "firebrick3", breaks=c(-1, 0, 1), limit=c(-1, 1))+
+  labs(x="", y="", fill="Pearson's\nr")+
+  theme(legend.position=c(-0.2, -0.25), legend.key.height=unit(0.33, "cm"))
+
+corrplot_s <- ggcorrplot(s_corr, method="square", lab=TRUE, lab_size=5)+
+  theme_minimal()+
+  theme(axis.title.x = element_text(size=18, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+        axis.title.y = element_text(size=18, margin = margin(t = 0, r = 10, b = 0, l = 0)))+
+  theme(axis.text.x = element_text(size=14, angle=90, vjust=0.5), axis.text.y = element_text(size=14))+
+  theme(legend.title = element_text(size=16), legend.text = element_text(size=14))+
+  theme(plot.margin = margin(t = plot_marg, r = plot_marg_right, b = plot_marg, l = plot_marg))+
   scale_fill_gradient2(low = "royalblue2", mid="white", high = "firebrick3", breaks=c(-1, 0, 1), limit=c(-1, 1))+
   labs(x="", y="", fill="Pearson's\nr")+
   theme(legend.position=c(-0.2, -0.25), legend.key.height=unit(0.33, "cm"))
@@ -225,3 +246,12 @@ corrplot_s <- ggcorrplot(s_corr, method="square", lab=TRUE)+
 
 ggsave("corrplot_filtered.svg", width=16, height=12)
 
+
+#plot including all starting environmental factors
+corrplot_global_prefilter / (corrplot_global + corrplot_nw) / (corrplot_ne + corrplot_s) + plot_annotation(tag_levels="A") + plot_layout(heights=c(2,1,1), guides="collect") & theme(plot.tag = element_text(size = 25), legend.position="right")
+ggsave("corrplot_filtered.png", width=15, height=20)
+ggsave("corrplot_filtered.svg", width=15, height=20)
+
+
+16*1.25
+12*1.25
